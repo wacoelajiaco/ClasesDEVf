@@ -1,0 +1,35 @@
+body {
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    color: blue;
+}
+
+#acerca-de-mi{
+    background-color: pink;
+    width: 33.3%;
+}
+
+#experiencia {
+    background-color: green;
+    width: 33.3%;
+}
+
+#referencia{
+    background-color: aqua;
+    width: 33.3%;
+}
+
+.estilo-seccion{
+    border:1px solid;
+   
+}
+
+h2{
+    color: blue;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <!-- Titulo 1, tenemos hasta el nivel 6, y el numero que lo acompaña indica la jerarquía.-->
+    <h1>Hola Mundo</h1>
+    <h2>Titulo de nivel 2</h2>
+    <h3>Titulo de nivel 3</h3>
+    <h4>Titulo de nivel 6</h4>
+    <h5>Titulo de nivel 5</h5>
+
+    <!-- Br=Break Este es un salto de linea, entre mas ponemos mas distancia -->
+    <br><br><br><br>
+    <h6>Titulo de nivel 6</h6>
+    
+    <!--Hr=horizontal Row, dibuja una linea de manera horizontal-->
+    <hr>
+
+    <!--Esta es una etiqueta de parrafo
+        |STRONG & B = Texto en negritas
+        <i> texto en cursiva
+        <em> texto enfatizado
+        <mark> texto marcado o subrayado
+        <small> Texto mas pequeño
+        <del> Texto Eliminado
+        <ins> Texto insertado
+        <sub> Tengo subindice
+        <sup> Texto superindice
+        <span>Agrupa contenido que es in-line-->
+        
+    <h2>Elementos de parrafo y formateo texto</h2>
+    <p>Lorem ipsum <strong>Texto Importante </strong>dolor sit amet <mark>Subrayado </mark>consectetur adipisicing <del>elit.</del> Dicta est dignissimos, <em>Como te va</em>animi, <b>quisquam, repellat</b> laudantium fuga <sup>sapiente</sup> <sub>optio</sub> hic obcaecati <i>Hola</i>praesentium corporis. Quo corrupti ducimus qui modi tenetur quaerat tempore?</p>
+    <hr>
+    <h2>Listas ordenadas y no-ordenadas</h2>
+    <!-- <ul>Lista desordenada, <li> elementos de la lista-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>elemento 3</li>
+    </ul>
+    <!--Lista Ordenada, la diferencia es que pone un numero-->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+    
+    <hr>
+    <!--Etiqueta de imagen, src es donde esta la foto y alt es para ciegos, descripcion de la foto-->
+    <h2>Imagenes Papa</h2>
+    <img src="./imgs/zoro.jpg" alt="zoro" width="1000px">
+
+    <hr>
+    <h2>Cita de texto</h2>
+    <!--Pone un texto con un pequeño margen a la izquierda-->
+    <blockquote>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi non, eos officia dicta voluptate eligendi quaerat! Ullam at alias temporibus nostrum odit, perspiciatis iste culpa eaque, officia rem tempore et.
+    </blockquote>
+
+    <hr>
+    <!-- a es un enlace para otras paginas
+        El atributo target nos permite escoger donde se abrira la nueva pag, si en una nueva o sobre la misma-->
+    <h2>Enlaces</h2>
+    <a href="https://cdn.oneesports.gg/cdn-data/2024/04/Anime_OnePiece_Zoro_Sword_Attack.jpg" target="_blank">Este enlace nos llevara a ver una foto del gran zoro</a>
+    <br>
+    <a href="./enlace.html" target="_blank">Otra pagina Papi</a>
+
+    <hr>
+    <!-- table para crear tablas donde primero tr = filas y td = columnas-->
+    <h2>Tablas Candela</h2>
+    <table border="1px">
+        <tr>
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>Ciudad</td>
+        </tr>
+        <tr>
+            <td>Nicolas</td>
+            <td>Ramirez Osma</td>
+            <td>San Jose Papi</td>
+        </tr>
+        <tr>
+            <td>Tatiana</td>
+            <td>
+                <h4>El mejor dia</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, pariatur?</p>
+            </td>
+            <td>Bogota Colombia </td>
+        </tr>
+    </table>
+
+    <hr>
+    <!--Aca creamos los formularios, diferentes tipos de Inputs, y a cada input se le agrega su label. Value, es para cambiar el "enviar" que sale en submit, con placeholder, podemos ponerle dentro algun ejemplo.
+    Text area, el cuadrito para sugerencias-->
+    <h2>Formularios</h2>
+    <form action="">
+        <label for="nombre">Escribe tu nombre:</label>
+        <input type="text" name="Nombre" placeholder="Nicolas">
+
+        <br> <br>
+        <label for="paswrod">Escribe tu contraseña: </label>
+        <input type="password">
+
+        <br><br>
+        <input type="submit" value="Registrarse">
+
+        <br><br>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad">
+
+        <br><br>
+        <label for="correo">Correo electronico</label>
+        <input type="email" name="correo">
+
+        <br><br>
+        <label for="url">Sitio Web:</label>
+        <input type="url" name="url" placeholder="https://www.wacoelajiaco.com">
+
+        <br><br>
+        <label for="color">Color</label>
+        <input type="color" name="color">
+
+        <br><br>
+        <label for="archivos">Archivo</label>
+        <input type="file" name="archivos">
+
+        <br><br>
+        <textarea name="texto" id="texto"></textarea>
+
+        <br><br>
+        <select name="paises" id="paises">
+            <option value="colombia">Colombia</option>
+            <option value="mexico">Mexico</option>
+            <option value="brasil">Brasil</option>
+        </select>
+
+        <br><br>
+        <label for="telefono">Telefono</label>
+        <input type="tel" name="telefono">
+
+        <br><br>
+        <label for="condiciones">Terminos y Condiciones</label>
+        <input type="checkbox">
+
+        <br><br>
+        <label for="escoge">Double po</label>
+        <input type="radio" name="escoge">
+        <label for="escoge2">Hufflepuff</label>
+        <input type="radio" name="escoge2">
+    </form>
+
+</body>
+</html>

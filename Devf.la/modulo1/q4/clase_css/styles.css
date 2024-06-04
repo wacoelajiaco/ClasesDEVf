@@ -1,0 +1,33 @@
+h1{
+        color: red;
+        background-color: blue;
+        border: 10px solid red;
+        /*El margen no se le puede poner color*/
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+}
+p{
+        /*Box-sizing es una propiedad que me ayuda a incluir el margin, padding en el total de la medida que yo especifique*/
+        /*box-sizing: border-box;*/
+        /*border-radius: 999px;*/
+        background-color: aquamarine;
+        /*height: 180px;
+        width: 180px;*/
+        padding:20px;
+        margin: 20px;
+        color: red;
+}
+button {
+        margin: 0 auto;
+}
+    span {
+        background-color: blueviolet;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 0 10px;
+}
+    button{
+        display: block;
+        margin:0 auto;
+}
